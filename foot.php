@@ -1,13 +1,5 @@
 		<div class="footer-container">
-		
 			
-		
-			
-		
-			
-					
-			
-		
 			<footer class="details">
 				<div class="container">
 					<div class="row">

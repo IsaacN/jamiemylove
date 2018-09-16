@@ -1,15 +1,24 @@
 @font-face {
     font-family: CaviarDreams;
-    src: url('fonts/CaviarDreams_Bold.ttf');
+    src: url('/fonts/CaviarDreams_Bold.ttf');
     font-weight: bold;
 }
 @font-face {
     font-family: CaviarDreams;
-    src: url('fonts/CaviarDreams.ttf');
+    src: url('/fonts/CaviarDreams.ttf');
 }
 @font-face {
     font-family: Futurist;
-    src: url('fonts/futurist_fixed_width.ttf');
+    src: url('/fonts/futurist_fixed_width.ttf');
+}
+@font-face {
+    font-family: Shorelines;
+    src: url('/fonts/shorelines-light.otf');
+}
+@font-face {
+    font-family: Shorelines;
+    src: url('/fonts/shorelines-bold.otf');
+    font-weight: bold;
 }
 .logo.logo-wide{
 	max-width: 50%;
@@ -27,7 +36,7 @@
 }
 
 .top-bar.nav-sticky{
-	background: rgba(244, 233, 171, 0.8);
+	background: rgba(244, 233, 171, 0.85);
 }
 
 .custom-hero-text{
@@ -42,10 +51,62 @@
 	text-shadow: 1px 1px #eeeeee;
 	margin-bottom: 20px !important;
 }
+.explore-title{
+	font-family: Futurist, Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 40px !important;
+	letter-spacing: 10px;
+	color: #eee;
+	margin-bottom: 20px !important;
+	font-weight: 300;
+}
 
 h2.splice-title{
 	color: #eee;
-	font-family: Futurist, CaviarDreams, Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-family: Futurist, Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
 	font-size: 20px !important;
-	text-shadow: none;
+}
+
+.splice-title.coming-soon{
+	color: #FBFAFC;
+	text-shadow: -3px 1px #F5D9E2;
+	font-weight: bold; 
+	margin-bottom: 0px;
+	line-height: 70px !important;
+}
+
+.offscreen-container .menu li a{
+	font-family:  CaviarDreams, Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.about-page p{
+	font-family: Futurist, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	text-align: justify;
+	color: #000;
+}
+
+.about-page h2{
+	font-family: Shorelines, Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	padding-bottom: 18px;
+	padding-top: 25px;
+}
+.shoreline{
+
+	font-family: Shorelines, Helvetica, Arial, sans-serif;
+}
+.contact-header{
+	color: #fff;
+	font-size: 42px;
+}
+.contact-quote{
+	text-align: center;
+	font-family: Futurist, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+::selection{
+	background: #F5D9E2;
+	color: #fff;
 }

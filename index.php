@@ -1,4 +1,6 @@
-	<?php include('head.php');?>	
+	<?php
+	$pagename='Home';
+	include('head.php');?>	
 		<div class="main-container">
 		<section class="hero-slider">
 				<ul class="slides">
@@ -39,10 +41,9 @@
 						
 						<div class="container align-vertical">
 							<div class="row">
-								<div class="col-md-6 col-sm-9">
-									<h1 class="text-white">Get ready for the launch of our amazing new template Pivot, You will be awed.</h1>
-									<a target="_blank" href="http://www.mediumra.re/pivot/variant/builder.html" class="btn btn-primary btn-white">Customize Pivot</a>
-									<a href="#" class="btn btn-primary btn-filled">Purchase Pivot</a>
+								<div class="col-xs-12 custom-hero-text">
+									<h1 class="text-white explore-title">EXPLORE THE CAMPAIGN</h1>
+			
 								</div>
 							</div>
 						</div>
@@ -62,10 +63,9 @@
 						
 						<div class="container align-vertical">
 							<div class="row">
-								<div class="col-md-6 col-sm-9">
-									<h1 class="text-white">Get ready for the launch of our amazing new template Pivot, You will be awed.</h1>
-									<a target="_blank" href="http://www.mediumra.re/pivot/variant/builder.html" class="btn btn-primary btn-white">Customize Pivot</a>
-									<a href="#" class="btn btn-primary btn-filled">Purchase Pivot</a>
+								<div class="col-xs-12 custom-hero-text">
+									<h1 class="text-white explore-title">JAMIE'S STORY</h1>
+			
 								</div>
 							</div>
 						</div>

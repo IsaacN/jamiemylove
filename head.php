@@ -7,7 +7,7 @@
 <html class="no-js"> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <title>Edit title tag</title>
+        <title>Jamie My Love // <?=$pagename?></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -58,11 +58,10 @@
 				<div class="offscreen-container">
 					<img alt="logo" class="logo" src="img/logo-dark.png" style="padding-bottom: 20px;">
 					<ul class="menu">
-						<li><a href="#">Home</a></li>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Portfolio</a></li>
-						<li><a href="#">Contact</a></li>
+						<li><a href="index.php">Home</a></li>
+						<li><a href="collections.php">Collections</a></li>
+						<li><a href="about.php">About</a></li>
+						<li><a href="contact.php">Contact</a></li>
 					</ul>	
 					<ul class="social-icons">
 						<li>
