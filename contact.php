@@ -28,11 +28,17 @@ irrelevant.”<br><br>
 							<div class="form-wrapper clearfix">
 								<form class="form-contact email-form">
 									<div class="inputs-wrapper">
-										<input class="form-name validate-required" type="text" placeholder="Your Name" name="name">
-										<input class="form-email validate-required validate-email" type="text" placeholder="Your Email Address" name="email">
-										<textarea class="form-message validate-required" name="message" placeholder="Your Message"></textarea>
+									<div class='col-sm-6'>
+										<input class="form-name validate-required" type="text" placeholder="Name" name="name">
+										<input class="form-email validate-required validate-email" type="text" placeholder="Email" name="email">
+										<input class="form-subject" type="text" placeholder="Subject" name="subject">
 									</div>
-									<input type="submit" class="send-form" value="Send Form">
+									<div class='col-sm-6'>
+										<textarea class="form-message validate-required" name="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<div class='col-sm-2 col-sm-offset-10'>
+									<input type="submit" class="send-form" value="Send"></div>
 									<div class="form-success">
 										<span class="text-white">Message sent - Thanks for your enquiry</span>
 									</div>

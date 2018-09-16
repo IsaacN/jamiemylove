@@ -39,8 +39,8 @@
 				
 					<div class="row nav-menu clearfix">
 						<div class="col-xs-10 col-xs-push-1">
-							<img class="logo logo-light" alt="Logo" src="img/logo-light.png">
-							<img class="logo logo-dark" alt="Logo" src="img/logo-dark.png">
+							<a href='/'><img class="logo logo-light" alt="Logo" src="img/logo-light.png">
+							<img class="logo logo-dark" alt="Logo" src="img/logo-dark.png"></a>
 						</div>
 						
 						<div class="col-xs-2 text-right pull-right">

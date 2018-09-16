@@ -110,3 +110,28 @@ h2.splice-title{
 	background: #F5D9E2;
 	color: #fff;
 }
+
+.form-contact .inputs-wrapper{
+	border-radius: 0px;
+	margin-top: 40px;
+}
+
+.form-contact input, .form-contact textarea{
+	border-radius: 0px;
+	background: rgba(255,255,255,0.3);
+	font-family: Futurist, Helvetica Neue, Helvetica, Arial, sans-serif;
+	border: 1px solid #fff;
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+
+.form-contact textarea{
+	min-height: 194px;
+}
+.form-contact input[type="submit"]{
+	max-width: 100%;
+}
+.form-contact .inputs-wrapper{
+	border: 0px;
+}
