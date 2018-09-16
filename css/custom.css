@@ -1,0 +1,51 @@
+@font-face {
+    font-family: CaviarDreams;
+    src: url('fonts/CaviarDreams_Bold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: CaviarDreams;
+    src: url('fonts/CaviarDreams.ttf');
+}
+@font-face {
+    font-family: Futurist;
+    src: url('fonts/futurist_fixed_width.ttf');
+}
+.logo.logo-wide{
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.offscreen-toggle i{
+	font-size: 48px;
+	padding-top: 20px;
+	line-height: 75px;
+}
+
+.offscreen-container{
+	background-color: #F4E9AB;
+}
+
+.top-bar.nav-sticky{
+	background: rgba(244, 233, 171, 0.8);
+}
+
+.custom-hero-text{
+	text-align: center;
+}
+
+.splice-title{
+	font-family: CaviarDreams, Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	font-size: 60px !important;
+	color: #F4E9AB;
+	text-shadow: 1px 1px #eeeeee;
+	margin-bottom: 20px !important;
+}
+
+h2.splice-title{
+	color: #eee;
+	font-family: Futurist, CaviarDreams, Futura, Helvetica Neue, Helvetica, Arial, sans-serif;
+	font-size: 20px !important;
+	text-shadow: none;
+}
