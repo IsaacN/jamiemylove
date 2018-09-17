@@ -31,19 +31,51 @@ body, html{
 .offscreen-toggle i{
 	font-size: 48px;
 	padding-top: 20px;
-	line-height: 75px;
+	line-height: 55px;
 }
 
 .offscreen-container{
 	background-color: #F4E9AB;
 }
+.offscreen-container .logo.logo-wide{
+	max-width: 30%;
+}
 
 .top-bar.nav-sticky{
 	background: rgba(244, 233, 171, 0.85);
 }
+.offscreen-menu .logo{
+	padding-bottom: 20px;
+	max-width: 30%;
+}
+
+.offscreen-menu .logo.logo-light{
+	max-width: 50%;
+}
 
 .custom-hero-text{
 	text-align: center;
+}
+
+
+@media only screen and (max-width: 767px){
+	.bg-offset-for-mobile{
+		background-position: -70% 0% !important;
+	}
+
+	h1.smaller-on-mobile{
+		font-size: 36px !important;
+	}
+	.offscreen-menu .logo {
+		max-width: 60%;
+		margin-bottom: 0px;
+		padding-bottom: 0px;
+	}
+
+	.offscreen-toggle i {
+		font-size: 36px;
+		line-height: 40px;
+	}
 }
 
 .splice-title{
@@ -134,9 +166,16 @@ h2.splice-title{
 }
 .form-contact input[type="submit"]{
 	max-width: 100%;
+	color: #666 ;
 }
 .form-contact .inputs-wrapper{
 	border: 0px;
+}
+
+.form-error{
+	background-color: #F4E9AB;
+	color: #666 !important;
+
 }
 
 .pre-footer{

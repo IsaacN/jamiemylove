@@ -43,7 +43,7 @@ irrelevant.”<br><br>
 										<span class="text-white">Message sent - Thanks for your enquiry</span>
 									</div>
 									<div class="form-error">
-										<span class="text-white">Please complete all fields correctly</span>
+										Please complete all fields correctly
 									</div>
 								</form>
 							</div>

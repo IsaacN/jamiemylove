@@ -58,26 +58,26 @@
 				<div class="offscreen-container">
 					<img alt="logo" class="logo" src="img/logo-dark.png" style="padding-bottom: 20px;">
 					<ul class="menu">
-						<li><a href="index.php">Home</a></li>
-						<li><a href="collections.php">Collections</a></li>
-						<li><a href="about.php">About</a></li>
-						<li><a href="contact.php">Contact</a></li>
+						<li><a href="index.php">Jamie My Love</a></li>
+						<li><a href="collections.php">Explore The Campaign</a></li>
+						<li><a href="about.php">Jamie's Story</a></li>
+						<li><a href="contact.php">Send Love Notes</a></li>
 					</ul>	
 					<ul class="social-icons">
 						<li>
-							<a href="#">
+							<a href="https://www.facebook.com/Jamie-My-Love-436250176781529/" target="_blank">
 								<i class="icon social_facebook"></i>
 							</a>
 						</li>
 				
 						<li>
-							<a href="#">
+							<a href="https://www.instagram.com/jamie.mylove/" target="_blank">
 								<i class="icon social_instagram"></i>
 							</a>
 						</li>
 				
 						<li>
-							<a href="#">
+							<a href="https://www.pinterest.com.au/jamiemylove/" target="_blank">
 								<i class="icon social_pinterest"></i>
 							</a>
 						</li>

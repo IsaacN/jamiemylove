@@ -35,14 +35,14 @@
 					
 					
 					<li class="overlay">
-						<div class="background-image-holder parallax-background">
-							<img class="background-image" alt="Background Image" src="img/explore_campaign_hero.jpg">
+						<div class="background-image-holder parallax-background bg-offset-for-mobile">
+							<img class="background-image bg-offset-for-mobile" alt="Background Image" src="img/explore_campaign_hero.jpg">
 						</div>
 						
 						<div class="container align-vertical">
 							<div class="row">
 								<div class="col-xs-12 custom-hero-text">
-									<a href='collections.php'><h1 class="text-white explore-title">EXPLORE THE CAMPAIGN</h1></a>
+									<a href='collections.php'><h1 class="text-white explore-title smaller-on-mobile">EXPLORE THE CAMPAIGN</h1></a>
 			
 								</div>
 							</div>

@@ -9,19 +9,19 @@
 						FOLLOW OUR JOURNEY <br><br>
 							<ul class="social-icons">
 						<li>
-							<a href="#">
+							<a href="https://www.facebook.com/Jamie-My-Love-436250176781529/" target="_blank">
 								<i class="icon social_facebook"></i>
 							</a>
 						</li>
 				
 						<li>
-							<a href="#">
+							<a href="https://www.instagram.com/jamie.mylove/" target="_blank">
 								<i class="icon social_instagram"></i>
 							</a>
 						</li>
 				
 						<li>
-							<a href="#">
+							<a href="https://www.pinterest.com.au/jamiemylove/" target="_blank">
 								<i class="icon social_pinterest"></i>
 							</a>
 						</li>
