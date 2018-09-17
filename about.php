@@ -13,9 +13,10 @@
 							<p class='col-sm-10 col-sm-offset-1'>
 								A surprise posy of yellow daisies, dinner and dancing – Jamie became my love, and my forever muse.</p>
 
-								<p class='col-sm-10 col-sm-offset-1' style='font-family: Futurist;'>
-								Eight years later, Jamie my Love the label was born, and one husband was forever embarrassed.</p>
+								<p class='col-sm-10 col-sm-offset-1' style='margin-bottom: 30px;'>
+								Eight years later, Jamie my Love the label was born, and one husband was forever embarrassed.
 							</p>
+							<br>
 							<h2>jamie girls</h2>
 							<p>
 								Jamie girls are brunch loving, mimosa sippers.  Midis by day and minis by night, we are low key fashionistas.
@@ -64,7 +65,8 @@
 		
 				</div>
 				</li>
+				<div class='pre-footer'></div>
 			</section>
 		</div>
-		<?php include('foot.php');?>	
+		<?php include('footer.php'); include('foot.php');?>	
 				

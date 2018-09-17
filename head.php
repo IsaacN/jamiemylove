@@ -66,12 +66,6 @@
 					<ul class="social-icons">
 						<li>
 							<a href="#">
-								<i class="icon social_twitter"></i>
-							</a>
-						</li>
-				
-						<li>
-							<a href="#">
 								<i class="icon social_facebook"></i>
 							</a>
 						</li>
@@ -79,6 +73,12 @@
 						<li>
 							<a href="#">
 								<i class="icon social_instagram"></i>
+							</a>
+						</li>
+				
+						<li>
+							<a href="#">
+								<i class="icon social_pinterest"></i>
 							</a>
 						</li>
 					</ul>

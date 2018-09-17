@@ -20,6 +20,9 @@
     src: url('/fonts/shorelines-bold.otf');
     font-weight: bold;
 }
+body, html{
+	font-family: Futurist;
+}
 .logo.logo-wide{
 	max-width: 50%;
 	margin: 0 auto;
@@ -134,4 +137,28 @@ h2.splice-title{
 }
 .form-contact .inputs-wrapper{
 	border: 0px;
+}
+
+.pre-footer{
+	display: block;
+	min-height: 251px;
+}
+
+.jml-custom{
+	background-color: rgba(255,255,255,0) !important;
+	margin-top: -251px;
+	color: #333 !important;
+}
+
+.contact-action{
+	background-color: rgba(255,255,255,0) !important;
+}
+
+.contact-action:hover{
+	background-color: rgba(255,255,255,0.2) !important;
+	cursor: pointer;
+}
+
+.footer-container{
+	color: #333 !important;
 }

@@ -19,7 +19,7 @@
 							<div class="row">
 								<div class="col-xs-12 custom-hero-text">
 									<h1 class="text-white splice-title">splice so nice</h1>
-									<h2 class='splice-title'> SUMMER 2018 COLLECTION </h2>
+									<h2 class='splice-title'> SUMMER 2019 COLLECTION </h2>
 								</div>
 							</div>
 						</div>
@@ -42,7 +42,7 @@
 						<div class="container align-vertical">
 							<div class="row">
 								<div class="col-xs-12 custom-hero-text">
-									<h1 class="text-white explore-title">EXPLORE THE CAMPAIGN</h1>
+									<a href='collections.php'><h1 class="text-white explore-title">EXPLORE THE CAMPAIGN</h1></a>
 			
 								</div>
 							</div>
@@ -64,7 +64,7 @@
 						<div class="container align-vertical">
 							<div class="row">
 								<div class="col-xs-12 custom-hero-text">
-									<h1 class="text-white explore-title">JAMIE'S STORY</h1>
+									<a href='about.php'><h1 class="text-white explore-title">JAMIE'S STORY</h1></a>
 			
 								</div>
 							</div>
@@ -74,6 +74,6 @@
 				</ul>
 			</section>
 		</div>
-			<?php include('foot.php');?>	
+			<?php include('footer.php'); include('foot.php');?>	
 
 				

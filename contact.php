@@ -50,6 +50,7 @@ irrelevant.”<br><br>
 						</div>
 					</div>
 				</div>
+				<div class='pre-footer'></div>
 			</section>
 		</div>
-		<?php include('foot.php');?>	
+		<?php include('footer.php'); include('foot.php');?>		
