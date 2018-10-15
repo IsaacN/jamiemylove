@@ -40,7 +40,7 @@ irrelevant.”<br><br>
 									<div class='col-sm-2 col-sm-offset-10'>
 									<input type="submit" class="send-form" value="Send"></div>
 									<div class="form-success">
-										<span class="text-white">Message sent - Thanks for your enquiry</span>
+										<span>Your love note is on its way!</span>
 									</div>
 									<div class="form-error">
 										Please complete all fields correctly

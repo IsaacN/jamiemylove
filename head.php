@@ -61,11 +61,12 @@
 						<li><a href="index.php">Jamie My Love</a></li>
 						<li><a href="collections.php">Explore The Campaign</a></li>
 						<li><a href="about.php">Jamie's Story</a></li>
+						<li><a href="ethics.php">Our Ethics Manual</a></li>
 						<li><a href="contact.php">Send Love Notes</a></li>
 					</ul>	
 					<ul class="social-icons">
 						<li>
-							<a href="https://www.facebook.com/Jamie-My-Love-436250176781529/" target="_blank">
+							<a href="https://fb.me/jamiemylove" target="_blank">
 								<i class="icon social_facebook"></i>
 							</a>
 						</li>

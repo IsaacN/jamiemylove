@@ -9,7 +9,7 @@
 }
 @font-face {
     font-family: Futurist;
-    src: url('/fonts/futurist_fixed_width.ttf');
+    src: url('/fonts/futurist_fixed_width.TTF');
 }
 @font-face {
     font-family: Shorelines;
@@ -172,7 +172,7 @@ h2.splice-title{
 	border: 0px;
 }
 
-.form-error{
+.form-error, .form-success{
 	background-color: #F4E9AB;
 	color: #666 !important;
 
@@ -200,4 +200,34 @@ h2.splice-title{
 
 .footer-container{
 	color: #333 !important;
+}
+.about-page h3{
+	font-family: Futurist, Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	padding-bottom: 18px;
+	padding-top: 25px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+ul.ethics-manual{
+    list-style: none;
+    padding: 0px;
+    text-align: left;
+    margin-left: 1em;
+    color: #000;
+    list-style-position: outside;
+    padding-left: 40px;
+    font-size: 13px;
+}
+
+ul.ethics-manual li:before{
+    content: '>';
+    margin: 0 1em;
+    margin-left: -2em;   /* any design */
+}
+
+ul.ethics-manual li{
+	display: block;
 }

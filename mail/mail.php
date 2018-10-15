@@ -24,9 +24,9 @@ if(isset($_POST['email'])) {
 	// or if you prefer/need to fall back to use PHP's inbuilt mail() function:
 	// $transport = Swift_MailTransport::newInstance();
 	
-	$transport = Swift_SmtpTransport::newInstance('mail.yourdomain.com', 25, 'tls' )
-	  ->setUsername('email@domain.com')     
-	  ->setPassword('p@55w0rd')
+	$transport = Swift_SmtpTransport::newInstance('mail.frictionstudios.com.au', 25)
+	  ->setUsername('jml@isaacnankavill.com')     
+	  ->setPassword('!jamieMyLove$123')
 	  ;
 
 	
@@ -42,9 +42,11 @@ if(isset($_POST['email'])) {
 	
 	
 	// You can change "A message from Pivot Template Form" to your own subject if you want.
-	$message = Swift_Message::newInstance('A message from Pivot Template Form')
+	$message = Swift_Message::newInstance('Jamie My Love Love Note')
 	  ->setFrom(array($_POST['email'] => $_POST['name']))
-	  ->setTo(array('email@yourdomain.com' => 'John Doe'))->setBody($messageText);
+
+	  // ->setTo(array('megan@mkgfashion.com' => 'Megan Gale'))->setBody($messageText);
+	  ->setTo(array('megan@mkgfashion.com' => 'Megan Gale'))->setBody($messageText);
 //                           ^                    ^
 //       Your email address_/          Your name_/
 

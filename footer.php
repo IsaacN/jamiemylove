@@ -9,7 +9,7 @@
 						FOLLOW OUR JOURNEY <br><br>
 							<ul class="social-icons">
 						<li>
-							<a href="https://www.facebook.com/Jamie-My-Love-436250176781529/" target="_blank">
+							<a href="https://fb.me/jamiemylove" target="_blank">
 								<i class="icon social_facebook"></i>
 							</a>
 						</li>
